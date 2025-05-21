@@ -48,10 +48,18 @@ Metrics reported:
 
 | W | B   | Heuristic           | Avg. Runtime | Avg. Path Length | Avg. Expansions |
 |---|-----|---------------------|--------------|------------------|-----------------|
-| 2 | 1   | Basic               | 0.17         |17.78             | 5160.56         |
+| 2 | 1   | Basic               | 0.17         | 17.78            | 5160.56         |
 | 2 | 1   | Learned-Bellman     | 2.03         | 20.26            | 230.53          |
-| 2 | 1   | Learned-Bootstrap   | 0.06         | 23.49             | 516.96         |
-
+| 2 | 1   | Learned-Bootstrap   | 0.06         | 23.49            | 516.96          |
+| 2 | 100 | Basic               | 0.09         | 17.73            | 5655.11         |
+| 2 | 100 | Learned-Bellman     | 1.45         | 17.91            | 1402.41         |
+| 2 | 100 | Learned-Bootstrap   | 0.04         | 18.93            | 1516.11         |
+| 5 | 1   | Basic               | 0.1          | 20.82            | 415.96          |
+| 5 | 1   | Learned-Bellman     | 2.79         | 24.51            | 351.82          |
+| 5 | 1   | Learned-Bootstrap   | 0.02         | 30.15            | 238.23          |
+| 5 | 100 | Basic               | 0.02         | 18.53            | 1513.51         |
+| 5 | 100 | Learned-Bellman     | 1.25         | 17.94            | 1400.91         |
+| 5 | 100 | Learned-Bootstrap   | 0.03         | 18.96            | 1501.01         |
 
 ---
 
@@ -81,7 +89,6 @@ python main.py
 
 ## 🧠 Technologies Used
 
-* Python 3.10
 * PyTorch
 * NumPy
 * Object-oriented programming
@@ -100,7 +107,6 @@ python main.py
 | `training.py`      | Neural training procedures for Bellman & bootstrap   |
 | `main.py`          | Main runner script for executing search              |
 | `requirements.txt` | Python dependencies                                  |
-| `analysis.pdf`     | Theoretical and empirical results                    |
 
 ---
 
