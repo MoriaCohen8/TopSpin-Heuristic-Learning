@@ -1,7 +1,7 @@
 
 # 🔄 Learning Heuristics for TopSpin Using BWA* and Deep Learning
 
-This project implements and analyzes heuristic learning methods for solving the **TopSpin puzzle** using both classical search and deep learning techniques. The work is part of an advanced university course on search-based decision making and neural heuristics.
+This project implements and analyzes heuristic learning methods for solving the **TopSpin puzzle** using both classical search and deep learning techniques.
 
 ## 🧩 Problem Description: TopSpin(n, k)
 
