@@ -44,6 +44,39 @@ Metrics reported:
 
 ---
 
+## 🧠 Technologies Used
+
+* PyTorch
+* NumPy
+* Object-oriented programming
+* A\*/Weighted A\*/Batching heuristics
+* Neural network training and evaluation
+
+---
+
+## 📝 Files Overview
+
+| File               | Description                                          |
+| ------------------ | ---------------------------------------------------- |
+| `topspin.py`       | TopSpin puzzle logic and state transitions           |
+| `BWAS.py`          | Batch Weighted A\* search implementation             |
+| `heuristics.py`    | Heuristic classes: base, Bellman, bootstrap, learned |
+| `training.py`      | Neural training procedures for Bellman & bootstrap   |
+| `main.py`          | Main runner script for executing search              |
+| `requirements.txt` | Python dependencies                                  |
+
+---
+
+## 🏆 Highlights
+
+* Combines **search algorithms** with **deep learning**.
+* Implements two training regimes for heuristics.
+* Parallel search with batching optimized for GPU evaluation.
+* Rigorous empirical evaluation and comparison.
+
+---
+
+
 ## 📊 Results Summary
 
 | W | B   | Heuristic           | Avg. Runtime | Avg. Path Length | Avg. Expansions |
@@ -86,40 +119,3 @@ python main.py
 ```
 
 ---
-
-## 🧠 Technologies Used
-
-* PyTorch
-* NumPy
-* Object-oriented programming
-* A\*/Weighted A\*/Batching heuristics
-* Neural network training and evaluation
-
----
-
-## 📝 Files Overview
-
-| File               | Description                                          |
-| ------------------ | ---------------------------------------------------- |
-| `topspin.py`       | TopSpin puzzle logic and state transitions           |
-| `BWAS.py`          | Batch Weighted A\* search implementation             |
-| `heuristics.py`    | Heuristic classes: base, Bellman, bootstrap, learned |
-| `training.py`      | Neural training procedures for Bellman & bootstrap   |
-| `main.py`          | Main runner script for executing search              |
-| `requirements.txt` | Python dependencies                                  |
-
----
-
-## 🏆 Highlights
-
-* Combines **search algorithms** with **deep learning**.
-* Implements two training regimes for heuristics.
-* Parallel search with batching optimized for GPU evaluation.
-* Rigorous empirical evaluation and comparison.
-
----
-
-## 📬 Contact
-
-For questions or collaboration opportunities, feel free to reach out via [GitHub](https://github.com/MoriaCohen8).
-
