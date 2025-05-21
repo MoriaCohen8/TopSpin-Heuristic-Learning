@@ -11,7 +11,7 @@ TopSpin is a combinatorial puzzle where `n` numbered disks are arranged in a cir
 
 The goal is to reach the sorted configuration `[1, 2, ..., n]` from a given permutation using the smallest number of moves. Each move has the same cost.
 
-![Preview](topspin_img.png)
+![Preview](topspin.png)
 
 
 ---
